@@ -24,7 +24,7 @@ Este texto contiene <sup>un superíndice</sup>
 
 Este texto debería citar `una parte de un código` o `un comando`
 
-A continuación, se cita código en su propio bloque
+A continuación, se cita código en su propio bloque.
 
 ```
 git status
@@ -32,7 +32,7 @@ git add
 git commit
 ```
 
-En MD se puede añadir colores citando sus valores en hexadecimal o hasta 255 (pero solo se puede ver en pull requests y discusiones, por lo que aquí no aparecerán los colores): `#ff0000` `rgb(0,255,0)` `hsl(0%,0%,255)
+En MD se puede añadir colores citando sus valores en hexadecimal o hasta 255 (pero solo se puede ver en pull requests y discusiones, por lo que aquí no aparecerán los colores): `#ff0000` `rgb(0,255,0)` `hsl(0%,0%,255)`
 
 Se pueden añadir enlaces entre corchetes y colocando la URL entre paréntesis: [Google](https://www.google.com/?hl=es)
 
@@ -49,17 +49,26 @@ Se pueden crear listas desordenadas utilizando `-, * o +` y se pueden crear list
 2. una lista
 3. ordenada
 
+Fin de lista
 
+1. Esto es
+   - una lista
+     - anidada
 
+- [ ] Esto es una lista
+- [ ] de tareas
+- [x] en la que se marca una tarea completada añadiendo una x.
 
+En el README se puede mencionar gente @DanielGarciaRegueir, aunque no va a funcionar porque no hay nadie a quien mencionar.
 
+En github funcionan ciertos emoticonos, que se escriben en un par dos puntos :+1:
 
+Se pueden crear notas [^1]
 
+las cuales te redirigan a pie de pagina [^2].
 
-
-
-
-
+[^1]: Esto son dos notas
+[^2]: a pie de página
 
 
 
