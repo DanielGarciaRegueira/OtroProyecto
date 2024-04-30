@@ -70,6 +70,38 @@ las cuales te redirigan a pie de pagina [^2].
 [^1]: Esto son dos notas
 [^2]: a pie de página
 
+> [!NOTE]
+> Se pueden crear alertas de distintos tipos, esta es una nota
+
+> [!TIP]
+> Se pueden crear alertas de distintos tipos, esta es un consejo
+
+> [!IMPORTANT]
+> Se pueden crear alertas de distintos tipos, esta remarca información importante
+
+> [!WARNING]
+> Se pueden crear alertas de distintos tipos, esta es una advertencia
+
+> [!CAUTION]
+> Se pueden crear alertas de distintos tipos, esta avisa sobre tener cuidado
+
+Existen comentarios ocultos, los cuales se pueden hacer con <!--
+
+Puedes decirle a GitHub que ignore las marcas si escribes una contrabarra antes del caracter que quieres ignorar: esto es un *texto en cursiva* y \*esto debería ser un texto en cursiva\*
+
+De manera un poco más avanzada, GitHub permite el uso de tablas, teniendo que crearlas usando \| y -
+
+ | Nombre |Edad|
+ |------- |----|
+ | Daniel | 18 |
+ | Ismael | 13 |
+
+Se puede colapsar texto usando la etiqueta `<details>`
+
+<details>Este texto se puede ocultar gracias a su etiqueta</details>
+
+Escribiendo entre símbolos de dolar ($), se puede añadir expresiones matemáticas como esta: $e=mc^2$
+
 
 
 
